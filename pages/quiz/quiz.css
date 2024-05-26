@@ -126,7 +126,7 @@ main{
 }
 
 .barra_progresso{
-    background: var(--bg-color);
+    background: var(--button-bg);
     height: 16px;
     padding: 4px;
     border-radius: 999px;
@@ -235,6 +235,12 @@ main{
 }
 
 @media(min-width: 1100px){
+    body{
+        background: var(--bg-desktop) var(--bg-color);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
     header{
         margin-block: 81px;
         max-width: 1160px;
